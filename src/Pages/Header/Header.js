@@ -13,7 +13,7 @@ const Header = () => {
                  <Box style={{ width: '500px', height: '500px',textAlign: 'left',marginLeft:'25px',marginTop:'110px'}}>
                  <Typography variant='h3' sx={{fontWeight:'500' ,mb:2}}>BEAUTY SALON FOR EVERY WOMEN</Typography>
                     <Typography sx={{mb:2}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde veritatis laborum voluptatem harum vitae accusantium obcaecati modi a cupiditate!</Typography>
-                    <Button variant="contained">Contained</Button>
+                    <Button variant="contained" sx={{background:'#EE1832'}}>Get an Appointment</Button>
                  </Box>
                 </Grid>
                 <Grid item xs={12} md={6} sm={4}>

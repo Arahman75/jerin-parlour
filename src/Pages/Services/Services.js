@@ -36,20 +36,20 @@ const services = [
 
 const Services = () => {
     return (
-        <Container style={{ height: '450px', backgroundColor: '#F6F5F4' }}>
+        <Container style={{ height: '600px', backgroundColor: '#F6F5F4' }}>
             <Box>
-                <Typography variant='h3' sx={{ textAlign: 'center', fontWeight: '500', pt: 2, pb: 2 }}>Our Awesome <small style={{ color: '#CC1B06' }}>Services</small></Typography>
+                <Typography variant='h3' sx={{ textAlign: 'center', fontWeight: '500', pt: 10, pb: 6 }}>Our Awesome <small style={{ color: '#CC1B06' }}>Services</small></Typography>
             </Box >
             <Grid container spacing={2}>
 
-{
-    services.map(service => <Service
-        service= {service}
-        key={service.id}
-    >
-        
-    </Service>)
-}
+                {
+                    services.map(service => <Service
+                        service={service}
+                        key={service.id}
+                    >
+
+                    </Service>)
+                }
             </Grid>
         </Container>
     );
