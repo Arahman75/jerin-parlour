@@ -24,10 +24,13 @@ const Navigation = () => {
                    <small style={{fontSize: '20px'}}>Jerin's</small> <br></br>Parlour
                </Typography>
               </Box>
-               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                 News
-               </Typography>
-               <Button color="inherit">Login</Button>
+               <Typography variant="h6"  sx={{ flexGrow: 1 ,textAlign:'right'}}>
+              
+              <Button color="inherit">   Home</Button>
+               <Button color="inherit">  Our portfolio</Button>
+               <Button color="inherit">  Our Team</Button>
+               <Button color="inherit"> Contact Us</Button>
+               <Button color="inherit">Login</Button> </Typography>
              </Toolbar>
            </AppBar>
           

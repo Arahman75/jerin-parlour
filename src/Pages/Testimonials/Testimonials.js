@@ -11,7 +11,7 @@ import ellips3 from '../../images/Ellipse 92.png';
 
 const Testimonials = () => {
     return (
-        <Container style={{ height: '500px', backgroundColor: '#FFFFFF' }}>
+        <Container style={{ height: '450px', backgroundColor: '#FFFFFF' }}>
             <Box>
                 <Typography variant='h4' sx={{ textAlign: 'center', fontWeight: '600', pt: 10, pb: 6 }}>Testimonials</Typography>
             </Box >

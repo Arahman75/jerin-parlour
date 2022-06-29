@@ -14,7 +14,7 @@ const Service = ({service}) => {
 <Typography sx={{p:1, fontSize: 18, fontWeight:'700'}}>
   {name}
 </Typography>
-<Typography sx={{fontSize: 18, fontWeight:'600',color:'#CC1B06'}}>
+<Typography sx={{fontSize: 18, fontWeight:'600',color:'#FFFFFF'}}>
   {price}
 </Typography>
 <Typography variant='h6' sx={{p:3, fontSize:14}}>

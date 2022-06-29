@@ -4,7 +4,7 @@ import screen from '../../images/screenColor.png';
 
 const ScreenTreatment = () => {
     return (
-        <Container style={{ height: '500px', backgroundColor: '#FEFCF6' }} sx={{ flexGrow: 1, p: 3 }}>
+        <Container style={{ height: '500px', backgroundColor: '#FFF8F5' }} sx={{ flexGrow: 1, p: 3 }}>
             <Grid container spacing={2} marginTop={'30px'} height={'300px'}>
                 <Grid item xs={12} md={6} sm={4}>
                     <img src={screen} alt="" style={{ width: '500px', height: '350px' }} />

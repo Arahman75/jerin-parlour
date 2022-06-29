@@ -6,7 +6,7 @@ import beauty from '../../images/beautyfull-girl.png'
 
 const Header = () => {
     return (
-        <Container style={{ height: '600px', backgroundColor: '#EDC6CE'}} sx={{ flexGrow: 1, p: 3 }}>
+        <Container style={{ height: '600px', backgroundColor: '#FFF8F5'}} sx={{ flexGrow: 1, p: 3 }}>
             <Grid container spacing={2} marginTop={'10px'} height={'300px'}>
 
                 <Grid item xs={12} md={6} sm={4}>
